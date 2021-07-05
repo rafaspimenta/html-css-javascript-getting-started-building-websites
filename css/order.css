@@ -1,0 +1,36 @@
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    padding: 0.5em;
+    border: solid 1px #999;
+    border-radius: 2px;
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+}
+
+
+input[type="reset"] {
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  input[type="submit"] {
+    border: solid 1px #999;
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+@media only screen and (min-width: 768px) {
+    article {
+        width: 350px;
+    }
+}
